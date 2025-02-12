@@ -5,7 +5,7 @@ import path from "path";
 import fs from "fs";
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 // Configuration du stockage des fichiers uploadés
 const uploadDir = "uploads";
