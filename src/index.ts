@@ -25,7 +25,7 @@ const upload = multer({ storage });
 // Servir une page HTML simple
 app.get("/", (req, res) => {
     res.send(`
-        <h2>Upload d'image</h2>
+        <h2>Upload d'image zjedzaioejzi</h2>
         <form action="/upload" method="post" enctype="multipart/form-data">
             <input type="file" name="image" required />
             <button type="submit">Envoyer</button>
